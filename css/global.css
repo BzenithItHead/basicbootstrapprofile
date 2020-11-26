@@ -1,0 +1,46 @@
+
+
+/*-----------------------------
+-----global CSS for all template-----
+-------------------------------------*/
+section{
+padding-top:100px;
+padding-bottom:75px;
+}
+/*---- a ---------*/
+/*---- b ---------*/
+/*---- c ---------*/
+
+.card-hover-visible{
+	visibility:hidden;
+}
+.card:hover .card-hover-visible{
+	visibility:visible;
+}
+/*---- d ---------*/
+
+
+/*---- x ---------*/
+/*---- y ---------*/
+/*---- z ---------*/
+
+
+
+
+
+#main-nav ul>li>a.active{
+	background-color:black;
+}
+.bg-transparent-white{
+	background-color:#e1dede96;
+}
+.bg-transparent-dark{
+	background-color:#b6bfc87d;
+}
+
+.top-auto{
+	top:auto;
+}
+.left-auto{
+	left:auto;
+}

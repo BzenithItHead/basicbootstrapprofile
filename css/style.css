@@ -1,0 +1,65 @@
+
+/*-----------------------------
+-----theme CSS for all template-----
+-------------------------------------*/
+
+[id*="-error"]{
+	color:yellow;
+	float:left;
+	margin-top:-10px;
+}
+/*---- menu part ---------*/
+.companyLogo{
+	height:50px;
+}
+#main-menu a{
+	transition:all .7s;
+}
+#main-menu a:hover,
+#main-menu a.active{
+	background-color:black;
+}
+/*---- home part ---------*/
+#home{
+	background-image:url('../images/bgImages/home.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*---- service part ---------*/
+#service{
+	background-image:url('../images/bgImages/service.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+/*---- review part ---------*/
+#review{
+	background-image:url('../images/bgImages/testmonial.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*----review part ---------*/
+#contact{
+	background-image:url('../images/bgImages/contact.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+#social-link ul>li{
+	margin-right:12px;
+}
+#social-link ul>li>a{
+	height:2.4rem;
+	width:2.5rem;
+}
+
+/*---- media quary ---------*/
+
+@media(max-width:576px){
+	.h5-sm{
+		font-size: 1.25rem;
+	}
+	.h6-sm{
+		font-size: .75rem;
+	}
+}
